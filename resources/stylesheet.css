@@ -1,0 +1,66 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul.navbar {
+    margin: auto;
+    overflow:hidden;
+    background-color: #142857;
+    padding-left: 20px;
+}
+
+li.navbar {
+    float:right;
+    list-style-type: none;
+}
+
+
+li a.navbarMenuItem {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+div.header {
+    padding: 10px;
+    text-align: right;
+    background: #142857;
+    color: white;
+    border-radius: 10px;
+}
+
+h3.navbar {
+    float: left;
+    text-size-adjust: 75%;
+}
+
+li a.hoverClass:hover {
+    background-color: #285714;
+    border-radius: 5px;
+}
+
+li a.headerNavBar:link { 
+    text-decoration: none;
+    color: white;
+}
+
+li a.headerNavBar:visited { 
+    text-decoration: none;
+    color: white;
+}
+
+li a.headerNavBar:hover { 
+    text-decoration: none;
+    color: white;
+}
+
+li a.headerNavBar:active { 
+    text-decoration: none;
+    color: white;
+}
+
+
+
